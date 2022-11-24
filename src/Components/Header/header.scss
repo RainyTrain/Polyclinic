@@ -1,0 +1,45 @@
+.header{
+    position: relative;
+    display: flex;
+    justify-content:space-between;
+    background-color: rgb(255, 255, 255);
+
+    .header__logo {
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+
+        .header__img {
+            img {
+                width: 100px;
+                height: 100px;
+            }
+        }
+        .header__brand {
+            font-size: 1.5em;
+            font-weight: 600;
+            color: rgb(34, 98, 144);
+            margin-bottom: 18px;
+            transition: color .4s ease;
+            position: relative;
+            &:hover{
+                color:rgb(0, 170, 212);;
+                width: 100%;
+            }
+            &::after{
+                content: "";
+                position: absolute;
+                height: 3px;
+                width: 0%;
+                left: 0;
+                bottom: -2px;
+                background-color: rgb(94, 216, 175);
+                transition: all .4s;
+                
+            }
+            &:hover::after{
+                width: 100%;
+            }
+        }
+    }
+}
