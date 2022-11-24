@@ -16,11 +16,11 @@ function Header(){
             </div>
             <div className="header__links">
                 <ul className="header__list">
-                    <li className="header__item">Home</li>
-                    <li className="header__item">Services</li>
-                    <li className="header__item">Our specialists</li>
-                    <li className="header__item">Contact</li>
-                    <li className="header__item">About us</li>
+                    <li className="header__item"><a href="#">Home</a></li>
+                    <li className="header__item"><a href="#">Services</a></li>
+                    <li className="header__item"><a href="#">Our specialists</a></li>
+                    <li className="header__item"><a href="#">Contact</a></li>
+                    <li className="header__item"><a href="#">About us</a></li>
                 </ul>
             </div>
         </header>
