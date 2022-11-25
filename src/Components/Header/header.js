@@ -17,7 +17,12 @@ function Header(){
             <div className="header__links">
                 <ul className="header__list">
                     <li className="header__item"><a href="#">Home</a></li>
-                    <li className="header__item"><a href="#">Services</a></li>
+                    <li className="header__item"><a href="#">Services</a>
+                        <div className="item__dropdown">
+                            <a>One</a><br/>
+                            <button>click me</button>
+                        </div>
+                    </li>
                     <li className="header__item"><a href="#">Our specialists</a></li>
                     <li className="header__item"><a href="#">Contact</a></li>
                     <li className="header__item"><a href="#">About us</a></li>
