@@ -1,6 +1,8 @@
 import React from "react"
 import "../Footer/footer.scss"
 import logo from '../Header/YourHealth.png'
+import {BsFacebook, BsInstagram} from "react-icons/bs"
+import {FiMail} from "react-icons/fi"
 
 function Footer() {
     return (
@@ -16,9 +18,18 @@ function Footer() {
             </div>
             <div className="footer__info">
                 <div className="footer__links">
-                    <div className="footer__instagram">Instagram</div>
-                    <div className="footer__facebook">Facebook</div>
-                    <div className="footer__Email">yourhealth@gmail.com</div>
+                    <div className="footer__instagram">
+                        <BsInstagram />
+                        <a href=".footrr">Instagram</a>
+                    </div>
+                    <div className="footer__facebook">
+                        <BsFacebook />
+                        <a>Facebook</a>
+                    </div>
+                    <div className="footer__email">
+                        <FiMail />
+                        <a>yourhealth@gmail.com</a>
+                    </div>
                 </div>
                 <div className="footer__contact">
                     <div className="footer__phone">

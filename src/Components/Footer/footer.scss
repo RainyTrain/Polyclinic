@@ -31,8 +31,38 @@
         display: flex;
         justify-content: flex-end;
         margin-right: 70px;
+        a {
+            color: inherit;
+            text-decoration: none;
+            margin-left: 10px;
+            &:hover {
+                color: rgb(0, 217, 181);
+            }
+        }
         .footer__links {
             margin-right: 50px;
+            .footer__instagram {
+                display: flex;
+                align-items: center;
+                margin-bottom: 5px;
+            }
+            .footer__facebook {
+                display: flex;
+                align-items: center;
+                margin-bottom: 5px;
+            }
+            .footer__email {
+                display: flex;
+                align-items: center;
+            }
+        }
+        .footer__contact {
+            .footer__phone {
+                margin-bottom: 5px;
+                &:hover {
+                    color: rgb(0, 217, 181);
+                }
+            }
         }
     }
 }
