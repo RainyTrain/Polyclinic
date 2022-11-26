@@ -14,14 +14,21 @@ function Footer() {
                     <span>Health</span>
                 </div>
             </div>
-            <div className="footer__links">
-                <div className="footer__instagram"></div>
-                <div className="footer__facebook"></div>
-                <div className="footer__Email"></div>
-            </div>
-            <div className="footer__contact">
-                <div className="footer__phone"></div>
-                <div className="footer__adress"></div>
+            <div className="footer__info">
+                <div className="footer__links">
+                    <div className="footer__instagram">Instagram</div>
+                    <div className="footer__facebook">Facebook</div>
+                    <div className="footer__Email">yourhealth@gmail.com</div>
+                </div>
+                <div className="footer__contact">
+                    <div className="footer__phone">
+                        +48-xxx-xxx-xxx
+                    </div>
+                    <div className="footer__adress">
+                        Nowoursynowska 161 <br/>
+                        Warsaw, Poland
+                    </div>
+                </div>
             </div>
         </footer>
     )

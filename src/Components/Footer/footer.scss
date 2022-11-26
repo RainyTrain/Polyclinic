@@ -1,4 +1,38 @@
 .footer {
     background-color: rgb(41, 40, 40);
     height: 200px;
+    color: rgb(255, 255, 255); 
+    display: flex;
+    justify-content: space-between;
+    align-items: center; 
+    .footer__logo {
+        margin-left: 70px;
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        .footer__img {
+            img {
+                width: 100px;
+                height: 100px;
+                margin-right: 20px;
+            }
+        }
+        .footer__brand {
+            font-size: 1.5em;
+            font-weight: 600;
+            color: rgb(255, 255, 255);
+            margin-bottom: 18px;
+            transition: color .4s ease;
+            position: relative;
+            line-height: 25px;
+        }
+    }
+    .footer__info {
+        display: flex;
+        justify-content: flex-end;
+        margin-right: 70px;
+        .footer__links {
+            margin-right: 50px;
+        }
+    }
 }
