@@ -20,7 +20,7 @@ function Footer() {
                 <div className="footer__links">
                     <div className="footer__instagram">
                         <BsInstagram />
-                        <a href=".footrr">Instagram</a>
+                        <a >Instagram</a>
                     </div>
                     <div className="footer__facebook">
                         <BsFacebook />

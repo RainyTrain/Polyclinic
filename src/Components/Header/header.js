@@ -16,8 +16,8 @@ function Header(){
             </div>
             <div className="header__links">
                 <ul className="header__list">
-                    <li className="header__item"><a href="#">Home</a></li>
-                    <li className="header__item"><a href="#">Services</a>
+                    <li className="header__item"><a href="/">Home</a></li>
+                    <li className="header__item"><a href="/services">Services</a>
                         <div className="item__dropdown">
                             <a>One</a><br/>
                             <a>One</a><br/>
@@ -25,9 +25,9 @@ function Header(){
                             <button>click me</button>
                         </div>
                     </li>
-                    <li className="header__item"><a href="#">Our specialists</a></li>
-                    <li className="header__item"><a href="#">Contact</a></li>
-                    <li className="header__item"><a href="#">About us</a></li>
+                    <li className="header__item"><a href="/specialists">Our specialists</a></li>
+                    <li className="header__item"><a href="/contact">Contact</a></li>
+                    <li className="header__item"><a href="/about">About us</a></li>
                 </ul>
             </div>
         </header>
