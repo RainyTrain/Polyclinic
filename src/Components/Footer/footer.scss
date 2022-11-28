@@ -5,6 +5,8 @@
     display: flex;
     justify-content: space-between;
     align-items: center; 
+    margin-top: auto;
+
     .footer__logo {
         margin-left: 70px;
         display: flex;
@@ -15,6 +17,7 @@
                 width: 100px;
                 height: 100px;
                 margin-right: 20px;
+                pointer-events: none;
             }
         }
         .footer__brand {

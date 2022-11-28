@@ -1,7 +1,11 @@
 @import url('https://fonts.googleapis.com/css2?family=IBM+Plex+Sans:wght@100;200;300;400;500&display=swap');
+html {
+  height: 100%;
+}
 
 body {
   margin: 0;
+  height: 100%;
   -webkit-font-smoothing: antialiased;
   font-family: 'IBM Plex Sans', sans-serif;
   -moz-osx-font-smoothing: grayscale;

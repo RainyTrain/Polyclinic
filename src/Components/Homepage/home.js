@@ -32,7 +32,7 @@ function Home() {
                     Check out our services
                 </div>
                 <div className="section__button">
-                    <button>Services</button>
+                    <a href="/services"><button>Services</button></a>
                 </div>
             </section>
         </div>
