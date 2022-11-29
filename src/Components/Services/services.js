@@ -7,7 +7,6 @@ function Services() {
     const [service, setService] = useState('')
     const [list, setList] = useState(data)
 
-
     console.log(service)
 
     const sortedBySpecialisation = useMemo(() => {
@@ -15,8 +14,6 @@ function Services() {
     },[service])
 
     console.log(sortedBySpecialisation)
-
-    //console.log(sortedBySpecialisation)
 
     return (
         <section className="services">
