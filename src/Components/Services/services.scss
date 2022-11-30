@@ -3,14 +3,29 @@
     min-height: calc(100vh - 200px - 104px);
     display: flex;
     flex-direction: row;
+    
     .services__menu {
         width: 40%;
         margin-left: 100px;
+        margin-top: 30px;
         .services__name {
 
         }
         .services__option {
-            
+            select {
+                text-align-last: center;
+                margin-top: 10px;
+                width: 200px;
+                height: 30px;
+                border-radius: 0;
+                appearance: none;
+                outline: none;
+                border: 0.6px solid black;
+                option {
+                    width: 500px;
+                    background-color: aquamarine;
+                }
+            }
         }
     }
     .services__element {

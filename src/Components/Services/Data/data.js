@@ -18,31 +18,7 @@ export const data = [
         specialisation: 'allergist'
     },
     {
-        name: 'bbb',
-        sername: 'bbbbbb',
-        age: 40,
-        specialisation: 'allergist'
-    },
-    {
-        name: 'ccc',
-        sername: 'bbbbbb',
-        age: 40,
-        specialisation: 'allergist'
-    },
-    {
         name: 'aaa',
-        sername: 'bbbbbb',
-        age: 40,
-        specialisation: 'dermatologist'
-    },
-    {
-        name: 'bbb',
-        sername: 'bbbbbb',
-        age: 40,
-        specialisation: 'dermatologist'
-    },
-    {
-        name: 'ccc',
         sername: 'bbbbbb',
         age: 40,
         specialisation: 'dermatologist'
@@ -60,12 +36,6 @@ export const data = [
         specialisation: 'gynecologist'
     },
     {
-        name: 'ccc',
-        sername: 'bbbbbb',
-        age: 40,
-        specialisation: 'gynecologist'
-    },
-    {
         name: 'aaa',
         sername: 'bbbbbb',
         age: 40,
@@ -75,18 +45,67 @@ export const data = [
         name: 'bbb',
         sername: 'bbbbbb',
         age: 40,
-        specialisation: 'infectiologist'
+        specialisation: 'neurologist'
     },
     {
         name: 'ccc',
         sername: 'bbbbbb',
         age: 40,
-        specialisation: 'infectiologist'
+        specialisation: 'ophthalmologist'
     },
     {
         name: 'ccc',
         sername: 'bbbbbb',
         age: 40,
-        specialisation: 'dentist',
+        specialisation: 'orthopedist',
+    },
+    {
+        name: 'ccc',
+        sername: 'bbbbbb',
+        age: 40,
+        specialisation: 'pediatrician'
+    },
+    {
+        name: 'ccc',
+        sername: 'bbbbbb',
+        age: 40,
+        specialisation: 'pediatrician',
+    },
+    {
+        name: 'ccc',
+        sername: 'bbbbbb',
+        age: 40,
+        specialisation: 'pediatrician'
+    },
+    {
+        name: 'ccc',
+        sername: 'bbbbbb',
+        age: 40,
+        specialisation: 'psychologist',
+    },
+    {
+        name: 'ccc',
+        sername: 'bbbbbb',
+        age: 40,
+        specialisation: 'psychologist',
+    },
+    {
+        name: 'ccc',
+        sername: 'bbbbbb',
+        age: 40,
+        specialisation: 'psychologist',
+    },
+    {
+        name: 'ccc',
+        sername: 'bbbbbb',
+        age: 40,
+        specialisation: 'surgeon',
+    },
+    {
+        name: 'ccc',
+        sername: 'bbbbbb',
+        age: 40,
+        specialisation: 'surgeon',
     }
+
 ]
