@@ -7,8 +7,10 @@ function Services() {
     const [service, setService] = useState('')
     const [list, setList] = useState(data)
 
-    console.log(service)
+    const url = `/${service}`
 
+    console.log(url)
+    
     const sortedBySpecialisation = useMemo(() => {
         return [...list].filter(item => item.specialisation == service)
     },[service])
@@ -36,12 +38,20 @@ function Services() {
                     </select>
                 </div>
             </div>
-            <div className="services__element">
-                Service - {service}
-                {/* {sortedBySpecialisation.map(item => {
-                    return <div key={item.name}>{item.name} {item.sername}</div>
-                })} */}
-            </div>
+            {service 
+                ? (<div className="services__element">
+                        <section className="action">
+                            <div className="action__element">
+                                <div className="action__info">
+                                    Discover more about {service}
+                                </div>
+                                <div className="action__register">
+                                    <span>Register</span>
+                                </div>
+                            </div>
+                        </section>
+                    </div>)
+                : <></>}
         </section>
     )
 }
