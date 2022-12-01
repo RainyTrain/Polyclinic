@@ -1,13 +1,14 @@
 import React, { useEffect, useMemo, useState } from "react"
 import "../Services/services.scss"
 import {data} from "./Data/data.js"
+import {NavLink, Outlet, useLocation} from 'react-router-dom'
 
 function Services() {
 
     const [service, setService] = useState('')
     const [list, setList] = useState(data)
 
-    const url = `/${service}`
+    const url = `${service}`
 
     console.log(url)
     
@@ -42,9 +43,9 @@ function Services() {
                 ? (<div className="services__element">
                         <section className="action">
                             <div className="action__element">
-                                <div className="action__info">
+                                <NavLink to={url}><div className="action__info">
                                     Discover more about {service}
-                                </div>
+                                </div></NavLink>
                                 <div className="action__register">
                                     <span>Register</span>
                                 </div>
@@ -52,6 +53,7 @@ function Services() {
                         </section>
                     </div>)
                 : <></>}
+            <Outlet/>
         </section>
     )
 }
